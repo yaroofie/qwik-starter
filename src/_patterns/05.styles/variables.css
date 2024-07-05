@@ -1,0 +1,16 @@
+:root {
+  --font-primary: url(/fonts/poppins-700.woff2);
+
+  --color-background: 229 229 229;
+  --color-text: 37 37 37;
+  --color-card: 213 213 213;
+  --color-primary: 255 115 179;
+  --color-secondary: 111 114 185;
+}
+.dark {
+  --color-primary: 255 115 179;
+  --color-secondary: 111 114 185;
+  --color-background: 37 38 41;
+  --color-card: 37 38 41;
+  --color-text: 225 225 225;
+}

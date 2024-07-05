@@ -17,7 +17,13 @@
     "outDir": "tmp",
     "noEmit": true,
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@patterns/*": ["./src/_patterns/*"],
+      "@atoms/*": ["./src/_patterns/00.atoms/*"],
+      "@molecules/*": ["./src/_patterns/01.molecules/*"],
+      "@organisms/*": ["./src/_patterns/02.organisms/*"],
+      "@templates/*": ["./src/_patterns/03.templates/*"],
+      "@pages/*": ["./src/_patterns/04.pages/*"]
     }
   },
   "files": ["./.eslintrc.cjs"],

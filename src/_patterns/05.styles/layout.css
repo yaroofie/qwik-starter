@@ -1,0 +1,9 @@
+@tailwind components;
+@layer components {
+  html,body {
+    @apply bg-background text-text max-w-[2500px] mx-auto min-h-screen
+  }
+  header, footer,.card {
+    @apply bg-card
+  }
+}
